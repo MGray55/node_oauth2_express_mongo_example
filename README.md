@@ -9,9 +9,17 @@ I ended up putting together this sample application.
 Please feel to use this as a spring board for your own projects
 The target audience for this is the Harvard Extension CSCIE-31 class, but I kept it generic enough that anyone could use this as a reference.
 
-
 ### What this covers
 I didn't add a Rest API, or a client application, or a way to persist auth tokens on the client. I'm trying to keep things agnostic, as you may use Jade, Pug, Angular, React, or just plain old Javascript to use these services.
+
+### Documentation and help
+I compiled this project from a variety of sources, and among them you'll want to look at:
+https://blog.cloudboost.io/how-to-make-an-oauth-2-server-with-node-js-a6db02dc2ce7
+https://github.com/oauthjs/node-oauth2-server
+https://github.com/oauthjs/express-oauth-server/tree/master/examples
+https://oauth2-server.readthedocs.io/en/latest/
+And most importantly, the Model Specification:
+https://oauth2-server.readthedocs.io/en/latest/model/spec.html
 
 ### Basic Assumptions
 - You have a node server with Express set-up.
